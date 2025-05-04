@@ -15,9 +15,6 @@ df = load_data()
 
 # Title and Description
 st.title("Domino's Sales Performance Dashboard")
-st.markdown("""
-This dashboard provides a comprehensive overview of Domino's sales performance. Use the filters and visualizations below to gain actionable insights into revenue trends, staff performance, and top-selling items.
-""")
 
 # Sidebar filters
 st.sidebar.header("Filters")
